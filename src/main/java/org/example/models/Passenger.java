@@ -1,5 +1,6 @@
 package org.example.models;
 
+//La clase Passenger también es experta ya que almacena y proporciona acceso a la información del pasajero.
 public class Passenger {
 
     private String name;

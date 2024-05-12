@@ -1,8 +1,7 @@
 package org.example.models;
 
-import org.example.models.Flight;
-import org.example.models.Passenger;
 
+//La clase Reservation Es experta en la información relacionada con las reservas.
 public class Reservation {
     private Flight flight;
     private Passenger passenger;

@@ -1,10 +1,12 @@
-package org.example;
+package org.example.services;
 
 import org.example.models.Flight;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+// La clase FlightSearch cumple con el patron Creator crea instancias de vuelos disponibles al buscar vuelos por origen y destino.
+// Es responsable de crear y devolver una lista de vuelos que coinciden con los criterios de búsqueda.
 public class FlightSearch {
 
     private List<Flight> flights;

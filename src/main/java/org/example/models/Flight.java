@@ -2,6 +2,7 @@ package org.example.models;
 
 import java.time.LocalDateTime;
 
+//La clase Flight usa Expert ya que es experta en conocer los detalles específicos de un vuelo. Contiene los atributos y métodos relacionados con la información de vuelo.
 public class Flight {
     private String flightNumber;
     private String departure;
